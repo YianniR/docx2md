@@ -4,7 +4,7 @@
   <img src="logo.png" width="100" height="100">
 </p>
 
-This is a simple Python application that converts DOCX files to Markdown (.md) format. It provides a graphical user interface (GUI) using the Tkinter library, allowing users to select a folder containing DOCX files, specify conversion options, and initiate the conversion process. The converter supports the extraction of media files embedded within the DOCX documents.
+This is a simple Python application that converts DOCX files to Markdown (.md) format. It provides a graphical user interface (GUI) using the PySimpleGUI library, allowing users to select a folder containing DOCX files, specify conversion options, and initiate the conversion process. The converter supports the extraction of media files embedded within the DOCX documents.
 
 ## Features
 
@@ -23,27 +23,27 @@ This is a simple Python application that converts DOCX files to Markdown (.md) f
 Make sure you have the following installed before running the application:
 
 - Python 3.x
-- Required Python packages: `os`, `argparse`, `tkinter`, `Pillow`, `pypandoc`
+- Required Python packages: `os`, `argparse`, `PySimpleGUI`, `Pillow`, `pypandoc`
 
 ## How to Use
 
 1. **Clone the Repository:**
 
    ```bash
-   git clone git@github.com:YianniR/docx2md.git
-   cd docx2md
+   git clone git@github.com:YourUsername/docx-to-md.git
+   cd docx-to-md
    ```
 
 2. **Install Dependencies:**
 
    ```bash
-   pip install pillow pypandoc
+   pip install Pillow pypandoc PySimpleGUI
    ```
 
 3. **Run the Application:**
 
    ```bash
-   python docx2md.py
+   python convert.py
    ```
 
 4. **Using the Application:**
