@@ -1,0 +1,26 @@
+# Ignore test data directory
+test_data/
+
+# Ignore Python-specific files and directories
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directories
+venv/
+env/
+*.env
+
+# Ignore text editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore generated files
+*.log
+*.zip
+*.tar.gz
