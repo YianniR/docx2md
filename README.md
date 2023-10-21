@@ -30,8 +30,8 @@ Make sure you have the following installed before running the application:
 1. **Clone the Repository:**
 
    ```bash
-   git clone git@github.com:YourUsername/docx-to-md.git
-   cd docx-to-md
+   git clone git@github.com:YianniR/docx2md.git
+   cd docx2md
    ```
 
 2. **Install Dependencies:**
