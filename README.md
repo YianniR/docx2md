@@ -43,7 +43,7 @@ Make sure you have the following installed before running the application:
 3. **Run the Application:**
 
    ```bash
-   python convert.py
+   python docx2md.py
    ```
 
 4. **Using the Application:**
